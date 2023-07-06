@@ -1,0 +1,7 @@
+{
+  "name": "IsoConvert",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
