@@ -1,5 +1,8 @@
 ion-menu ion-content {
-  --background: var(--ion-item-background, var(--ion-background-color, #fff));
+  --background: var(
+    --ion-item-background,
+    var(--ion-background-color, #fffcfc)
+  );
 }
 
 ion-menu.md ion-content {
@@ -11,57 +14,70 @@ ion-menu.md ion-content {
 
 ion-menu.md ion-list {
   padding: 20px 0;
+  color-scheme: light dark;
 }
 
 ion-menu.md ion-note {
   margin-bottom: 30px;
+  color-scheme: light dark;
 }
 
-ion-menu.md ion-list-header, ion-menu.md ion-note {
+ion-menu.md ion-list-header,
+ion-menu.md ion-note {
   padding-left: 10px;
+  color-scheme: light dark;
 }
 
 ion-menu.md ion-list#inbox-list {
-  border-bottom: 1px solid var(--ion-color-step-150, #d7d8da);
+  border-bottom: 1px solid var(--ion-color-step-150, #070707);
+  color-scheme: light dark;
 }
 
 ion-menu.md ion-list#inbox-list ion-list-header {
   font-size: 22px;
   font-weight: 600;
   min-height: 20px;
+  color-scheme: light dark;
 }
 
 ion-menu.md ion-list#labels-list ion-list-header {
   font-size: 16px;
   margin-bottom: 18px;
-  color: #757575;
+  color: #050014;
   min-height: 26px;
+  color-scheme: light dark;
 }
 
 ion-menu.md ion-item {
   --padding-start: 10px;
   --padding-end: 10px;
   border-radius: 4px;
+  color-scheme: light dark;
 }
 
 ion-menu.md ion-item.selected {
   --background: rgba(var(--ion-color-primary-rgb), 0.14);
+  color-scheme: light dark;
 }
 
 ion-menu.md ion-item.selected ion-icon {
   color: var(--ion-color-primary);
+  color-scheme: light dark;
 }
 
 ion-menu.md ion-item ion-icon {
-  color: #616e7e;
+  color: #030125;
+  color-scheme: light dark;
 }
 
 ion-menu.md ion-item ion-label {
   font-weight: 500;
+  color-scheme: light dark;
 }
 
 ion-menu.ios ion-content {
   --padding-bottom: 20px;
+  color-scheme: light dark;
 }
 
 ion-menu.ios ion-list {
@@ -81,7 +97,7 @@ ion-menu.ios ion-item {
 
 ion-menu.ios ion-item ion-icon {
   font-size: 24px;
-  color: #73849a;
+  color: #021a3a;
 }
 
 ion-menu.ios ion-item .selected ion-icon {
@@ -110,4 +126,4 @@ ion-note {
 
 ion-item.selected {
   --color: var(--ion-color-primary);
-} 
+}
